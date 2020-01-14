@@ -1,5 +1,14 @@
 /* Base */
-
+.apply-now{
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  transition: 0.5s;
+}
+.apply-now:hover{
+  color: #fff;
+  background-color: #000;
+}
 
 body {
   line-height: 1.7;
