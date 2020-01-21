@@ -1,0 +1,28 @@
+.fact{
+    width: 100%;
+    position: relative;
+    padding: 3% 20%;
+    background-color: #7971ea;
+
+}
+.head{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+
+}
+
+.fact-content{
+    position: relative;
+    width: 100%;
+    margin: 5% 0;
+}
+.fact-content h4{
+    color: white;
+    font-weight: bold;
+}
+.fact-content blockquote{
+    color: aquamarine;
+}
+
