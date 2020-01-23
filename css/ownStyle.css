@@ -1,11 +1,12 @@
-.fact{
+.fact {
     width: 100%;
     position: relative;
     padding: 3% 20%;
     background-color: #7971ea;
-
+    padding-top: 5rem;
 }
-.head{
+
+.head {
     width: 100%;
     text-align: center;
     color: white;
@@ -13,16 +14,17 @@
 
 }
 
-.fact-content{
+.fact-content {
     position: relative;
     width: 100%;
     margin: 5% 0;
 }
-.fact-content h4{
+
+.fact-content h4 {
     color: white;
     font-weight: bold;
 }
-.fact-content blockquote{
+
+.fact-content blockquote {
     color: aquamarine;
 }
-
