@@ -1,12 +1,11 @@
-.fact {
+.fact{
     width: 100%;
     position: relative;
     padding: 3% 20%;
     background-color: #7971ea;
-    padding-top: 5rem;
-}
 
-.head {
+}
+.head{
     width: 100%;
     text-align: center;
     color: white;
@@ -14,47 +13,89 @@
 
 }
 
-.fact-content {
+.fact-content{
     position: relative;
     width: 100%;
     margin: 5% 0;
 }
-
-.fact-content h4 {
+.fact-content h4{
     color: white;
     font-weight: bold;
 }
-
-.fact-content blockquote {
+.fact-content blockquote{
     color: aquamarine;
 }
-
-.more-info-list {
-    list-style-type: none;
+.studentVoiceItem{
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+.studentVoiceItem div{
+    display: inline-flexbox;
 }
 
-.apply-home {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-color: #fff;
-    transition: 0.5s;
+.imageContent{
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: center;
+}
+#imageContent1{
+    float: left;
+}
+#imageContent2{
+    float: right;
+}
+.imageContent img{
+    width: 100px;
+}
+.imageContent p{
+    color: black;
+    font-weight: 900;
+}
+.textContent{
+    margin-top: 3%;
+    position: relative;
+    width: 85%;
+}
+#textContent1{
+    float: right;
+}
+#textContent2{
+    float: left;
+}
+@media only screen and (max-width: 1200px)
+{
+    .textContent{
+        width: 80%;
+    }
+    .imageContent{
+        margin-top: 5%;
+        margin-left: 2%
+    }
+}
+@media only screen and (max-width: 900px)
+{
+    .studentVoiceItem div{
+        display: block;
+    }
+    .studentVoiceItem{
+        padding: 0 1% 2% 1%;
+        align: center;
+    }
+    .textContent{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .textContent blockquote{
+        margin: 0 1%;
+    }
+    .imageContent{
+        float: none;
+    }
+    #imageContent1{
+        float: none;
+    }
+    #imageContent2{
+        float: none;
+    }
 }
 
-.apply-home:hover {
-    color: #000;
-    background-color: #fff;
-    border-color: #000;
-}
-
-.apply-now {
-    color: #000;
-    background-color: #fff;
-    border-color: #000;
-    transition: 0.5s;
-    border-radius: 30px;
-}
-
-.apply-now:hover {
-    color: #fff;
-    background-color: #000;
-}
