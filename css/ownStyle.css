@@ -30,7 +30,7 @@
     margin-bottom: 5px;
 }
 .studentVoiceItem div{
-    display: inline-flexbox;
+    display: inline-block;
 }
 
 .imageContent{
@@ -64,6 +64,44 @@
 #textContent2{
     float: left;
 }
+
+#Comparation{
+    width: 100%;
+    height: 500px;
+}
+.comparation-title{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    margin: 0 0 50px 0;
+}
+.comparation-item-container{
+    margin-left: 7%;
+    display: flex;
+}
+.comparation-item{
+    text-align: justify;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 5px black;
+    background-color: #f1f0fd;
+    width: 500px;
+    height: 280px;
+    padding: 25px 0;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.comparation-item h3{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+#compare-kit{
+    padding-left: 30px;
+}
+
 @media only screen and (max-width: 1200px)
 {
     .textContent{
@@ -72,6 +110,26 @@
     .imageContent{
         margin-top: 5%;
         margin-left: 2%
+    }
+    .comparation-title{
+        margin: 0;
+    }
+    .comparation-item-container{
+        display: block;
+        margin: 20px 0;
+    }
+    .comparation-item{
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+        padding: 10px 10px 5px 0;
+
+    }
+    #Comparation{
+        height: auto;
+    }
+    #compare-kit{
+        padding-left: 0;
     }
 }
 @media only screen and (max-width: 900px)
