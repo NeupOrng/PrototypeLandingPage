@@ -43,6 +43,7 @@
 }
 #imageContent2{
     float: right;
+    margin-right: 2%;
 }
 .imageContent img{
     width: 100px;
@@ -55,6 +56,7 @@
     margin-top: 3%;
     position: relative;
     width: 85%;
+    align: justify;
 }
 #textContent1{
     float: right;
@@ -78,8 +80,9 @@
         display: block;
     }
     .studentVoiceItem{
-        padding: 0 1% 2% 1%;
-        align: center;
+        align: justify;
+        padding: 0 3% 3% 3%;
+        
     }
     .textContent{
         width: 100%;
