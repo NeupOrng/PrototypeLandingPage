@@ -1,290 +1,207 @@
-.fact{
-    width: 100%;
-    position: relative;
-    padding: 3% 20%;
-    background-color: #7971ea;
-
+.fact {
+  width: 100%;
+  position: relative;
+  padding: 3% 20%;
+  background-color: #7971ea;
 }
-.head{
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-weight: 800;
-
+.head {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 800;
 }
 
-.fact-content{
-    position: relative;
-    width: 100%;
-    margin: 5% 0;
+.fact-content {
+  position: relative;
+  width: 100%;
+  margin: 5% 0;
 }
-.fact-content h4{
-    color: white;
-    font-weight: bold;
+.fact-content h4 {
+  color: white;
+  font-weight: bold;
 }
-.fact-content blockquote{
-    color: aquamarine;
+.fact-content blockquote {
+  color: aquamarine;
 }
 
 .more-info-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .apply-home {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-color: #fff;
-    transition: 0.5s;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: #fff;
+  transition: 0.5s;
 }
 
 .apply-home:hover {
-    color: #000;
-    background-color: #fff;
-    border-color: #000;
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
 }
 
 .apply-now {
-    color: #000;
-    background-color: #fff;
-    border-color: #000;
-    transition: 0.5s;
-    border-radius: 30px;
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  transition: 0.5s;
+  border-radius: 30px;
 }
 
 .apply-now:hover {
-    color: #fff;
-    background-color: #000;
+  color: #fff;
+  background-color: #000;
 }
 
-.studentVoiceItem{
-    padding: 5px 20px;
-    margin-bottom: 5px;
+.studentVoiceItem {
+  padding: 5px 20px;
+  margin-bottom: 5px;
 }
-.studentVoiceItem div{
-    display: inline-block;
-}
-
-.imageContent{
-    margin-top: 3%;
-    margin-left: 3%;
-    text-align: center;
-}
-#imageContent1{
-    float: left;
-}
-#imageContent2{
-    float: right;
-    margin-right: 2%;
-}
-.imageContent img{
-    width: 100px;
-}
-.imageContent p{
-    color: black;
-    font-weight: 900;
-}
-.textContent{
-    margin-top: 3%;
-    position: relative;
-    width: 80%;
-    align: justify;
-}
-#textContent1{
-    float: right;
-}
-#textContent2{
-    float: left;
+.studentVoiceItem div {
+  display: inline-block;
 }
 
-#Comparation{
+.imageContent {
+  margin-top: 3%;
+  margin-left: 3%;
+  text-align: center;
+}
+#imageContent1 {
+  float: left;
+}
+#imageContent2 {
+  float: right;
+  margin-right: 2%;
+}
+.imageContent img {
+  width: 100px;
+}
+.imageContent p {
+  color: black;
+  font-weight: 900;
+}
+.textContent {
+  margin-top: 3%;
+  position: relative;
+  width: 80%;
+  text-align: justify;
+}
+#textContent1 {
+  float: right;
+}
+#textContent2 {
+  float: left;
+}
+
+#Comparation {
+  width: 100%;
+  height: 500px;
+  padding-left: 4%;
+  padding-right: 5%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.comparation-title {
+  text-align: center;
+  font-weight: 900;
+  color: black;
+  margin: 0 0 50px 0;
+}
+.comparation-item-container {
+  margin-left: 7%;
+  display: flex;
+}
+.comparation-item {
+  text-align: justify;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 0 5px black;
+  background-color: #f1f0fd;
+  width: 500px;
+  height: 280px;
+  padding: 25px 0;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+.comparation-item h3 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+#compare-kit {
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .comparation-item {
+    height: 350px;
+    padding-right: 30px;
+  }
+  .comparation-item-container {
+    margin-left: 1%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+  .textContent {
+    width: 75%;
+  }
+  .imageContent {
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+  .comparation-title {
+    margin: 0;
+  }
+  .comparation-item-container {
+    display: block;
+    margin: 20px 0;
+  }
+  .comparation-item {
+    margin: 10px 0;
     width: 100%;
-    height: 500px;
-    padding-left: 4%;
-    padding-right: 5%;
-    margin-right: 0;
-    margin-left: 0;
+    height: auto;
+    padding: 10px 10px 5px 0;
+  }
+  #Comparation {
+    height: auto;
+  }
+  #compare-kit {
+    padding-left: 0;
+  }
 }
-.comparation-title{
-    text-align: center;
-    font-weight: 900;
-    color: black;
-    margin: 0 0 50px 0;
+@media only screen and (max-width: 1000px) {
+  .imageContent {
+    margin-top: 10%;
+  }
 }
-.comparation-item-container{
-    margin-left: 7%;
-    display: flex;
-}
-.comparation-item{
+@media only screen and (max-width: 900px) {
+  .studentVoiceItem div {
+    display: block;
+  }
+  .studentVoiceItem {
     text-align: justify;
-    position: relative;
-    display: inline-block;
-    box-shadow: 0 0 5px black;
-    background-color: #f1f0fd;
-    width: 500px;
-    height: 280px;
-    padding: 25px 0;
-    margin: 0 10px;
-    border-radius: 10px;
-    padding-right: 10px;
-}
-.comparation-item h3{
-    position: relative;
+    padding: 0 3% 3% 3%;
+  }
+  .textContent {
     width: 100%;
-    text-align: center;
-    color: black;
-    font-weight: 900;
+    margin-top: 0%;
+  }
+  .textContent blockquote {
+    margin: 0 1%;
+  }
+  .imageContent {
+    float: none;
+  }
+  #imageContent1 {
+    float: none;
+  }
+  #imageContent2 {
+    float: none;
+  }
 }
-#compare-kit{
-    padding-left: 30px;
-}
-
-@media only screen and (max-width:1800px){
-    .comparation-item{
-        height: 350px;
-        padding-right: 30px;
-    }
-    .comparation-item-container{
-        margin-left: 1%;
-    }
-}
-@media only screen and (max-width: 1400px){
-
-}
-@media only screen and (max-width: 1200px)
-{
-    .textContent{
-        width: 75%;
-    }
-    .imageContent{
-        margin-top: 5%;
-        margin-left: 2%;
-    }
-    .comparation-title{
-        margin: 0;
-    }
-    .comparation-item-container{
-        display: block;
-        margin: 20px 0;
-    }
-    .comparation-item{
-        margin: 10px 0;
-        width: 100%;
-        height: auto;
-        padding: 10px 10px 5px 0;
-    }
-    #Comparation{
-        height: auto;
-    }
-    #compare-kit{
-        padding-left: 0;
-    }
-}
-@media only screen and (max-width: 1000px){
-    .imageContent{
-        margin-top: 10%;
-    }
-
-}
-@media only screen and (max-width: 900px)
-{
-    .studentVoiceItem div{
-        display: block;
-    }
-    .studentVoiceItem{
-        align: justify;
-        padding: 0 3% 3% 3%;
-        
-    }
-    .textContent{
-        width: 100%;
-        margin-top: 0%;
-    }
-    .textContent blockquote{
-        margin: 0 1%;
-    }
-    .imageContent{
-        float: none;
-    }
-    #imageContent1{
-        float: none;
-    }
-    #imageContent2{
-        float: none;
-    }
-}
-
-<<<<<<< HEAD
-.apply-now:hover {
-    color: #fff;
-    background-color: #000;
-}
-
-.studentVoiceItem{
-    padding: 5px 20px;
-    margin-bottom: 5px;
-}
-.studentVoiceItem div{
-    display: inline-block;
-}
-
-.imageContent{
-    margin-top: 3%;
-    margin-left: 3%;
-    text-align: center;
-}
-#imageContent1{
-    float: left;
-}
-#imageContent2{
-    float: right;
-    margin-right: 2%;
-}
-.imageContent img{
-    width: 100px;
-}
-.imageContent p{
-    color: black;
-    font-weight: 900;
-}
-.textContent{
-    margin-top: 3%;
-    position: relative;
-    width: 80%;
-    align: justify;
-}
-#textContent1{
-    float: right;
-}
-#textContent2{
-    float: left;
-}
-
-@media only screen and (max-width: 900px)
-{
-    .studentVoiceItem div{
-        display: block;
-    }
-    .studentVoiceItem{
-        align: justify;
-        padding: 0 3% 3% 3%;
-        
-    }
-    .textContent{
-        width: 100%;
-        margin-top: 0%;
-    }
-    .textContent blockquote{
-        margin: 0 1%;
-    }
-    .imageContent{
-        float: none;
-    }
-    #imageContent1{
-        float: none;
-    }
-    #imageContent2{
-        float: none;
-    }
-}
-=======
->>>>>>> 6c16a380eee31ce04d08c9f35823a084e05797c6
