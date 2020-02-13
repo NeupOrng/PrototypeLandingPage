@@ -213,3 +213,78 @@
     }
 }
 
+<<<<<<< HEAD
+.apply-now:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.studentVoiceItem{
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+.studentVoiceItem div{
+    display: inline-block;
+}
+
+.imageContent{
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: center;
+}
+#imageContent1{
+    float: left;
+}
+#imageContent2{
+    float: right;
+    margin-right: 2%;
+}
+.imageContent img{
+    width: 100px;
+}
+.imageContent p{
+    color: black;
+    font-weight: 900;
+}
+.textContent{
+    margin-top: 3%;
+    position: relative;
+    width: 80%;
+    align: justify;
+}
+#textContent1{
+    float: right;
+}
+#textContent2{
+    float: left;
+}
+
+@media only screen and (max-width: 900px)
+{
+    .studentVoiceItem div{
+        display: block;
+    }
+    .studentVoiceItem{
+        align: justify;
+        padding: 0 3% 3% 3%;
+        
+    }
+    .textContent{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .textContent blockquote{
+        margin: 0 1%;
+    }
+    .imageContent{
+        float: none;
+    }
+    #imageContent1{
+        float: none;
+    }
+    #imageContent2{
+        float: none;
+    }
+}
+=======
+>>>>>>> 6c16a380eee31ce04d08c9f35823a084e05797c6
