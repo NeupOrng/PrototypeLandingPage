@@ -70,10 +70,7 @@
 #imageContent1 {
   float: left;
 }
-#imageContent2 {
-  float: right;
-  margin-right: 2%;
-}
+
 .imageContent img {
   width: 100px;
 }
@@ -85,13 +82,10 @@
   margin-top: 3%;
   position: relative;
   width: 80%;
-  text-align: justify;
+  text-align: left;
 }
 #textContent1 {
   float: right;
-}
-#textContent2 {
-  float: left;
 }
 
 #Comparation {
@@ -185,7 +179,6 @@
     display: block;
   }
   .studentVoiceItem {
-    text-align: justify;
     padding: 0 3% 3% 3%;
   }
   .textContent {
