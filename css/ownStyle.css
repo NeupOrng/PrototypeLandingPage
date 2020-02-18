@@ -130,6 +130,14 @@
   padding-left: 30px;
 }
 
+#moreinfo-container{
+  display: flex;
+  margin-bottom: 30px;
+}
+.moreinfo-items{
+  margin: 5px 10px
+}
+
 @media only screen and (max-width: 1800px) {
   .comparation-item {
     height: 350px;
