@@ -1,3 +1,6 @@
+::-webkit-scrollbar{
+  display: none;
+}
 .fact {
   width: 100%;
   position: relative;
@@ -21,7 +24,8 @@
   font-weight: bold;
 }
 .fact-content blockquote {
-  color: aquamarine;
+  color: aquam
+  arine;
 }
 
 .more-info-list {
@@ -105,19 +109,38 @@
 .comparation-item-container {
   margin-left: 7%;
   display: flex;
+  border: black 1px solid;
+  border-radius: 5px;
+  overflow: hidden;
 }
-.comparation-item {
-  text-align: justify;
-  position: relative;
-  display: inline-block;
-  box-shadow: 0 0 5px black;
-  background-color: #f1f0fd;
-  width: 500px;
-  height: 280px;
-  padding: 25px 0;
-  margin: 0 10px;
-  border-radius: 10px;
-  padding-right: 10px;
+.School-table{
+
+}
+
+.School-table table tr{
+  text-align: center;
+}
+.School-table table tr th{
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+.School-table table tr td{
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+
+.Attribute-table table tr{
+  text-align: center;
+  margin: 10px 15px;
+}
+.Attribute-table table tr th{
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+.Attribute-table table tr td{
+    padding: 10px 15px;
+    border: 1px solid black;
 }
 .comparation-item h3 {
   position: relative;
@@ -125,9 +148,6 @@
   text-align: center;
   color: black;
   font-weight: 900;
-}
-#compare-kit {
-  padding-left: 30px;
 }
 
 #moreinfo-container{
@@ -161,7 +181,7 @@
     margin: 0;
   }
   .comparation-item-container {
-    display: block;
+    display: flex;
     margin: 20px 0;
   }
   .comparation-item {
@@ -181,13 +201,18 @@
   .imageContent {
     margin-top: 10%;
   }
+
 }
 @media only screen and (max-width: 900px) {
+  .Attribute-table{
+    overflow-x: scroll;
+  }
   .studentVoiceItem div {
     display: block;
   }
   .studentVoiceItem {
     padding: 0 3% 3% 3%;
+    height: 460px;
   }
   .textContent {
     width: 100%;
@@ -205,4 +230,29 @@
   #imageContent2 {
     float: none;
   }
+}
+@media only screen and (max-width: 600px) {
+    .studentVoiceItem{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .studentVoiceItem{
+        height: 470px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .studentVoiceItem{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .studentVoiceItem{
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .studentVoiceItem{
+        height: 700px;
+    }
 }
