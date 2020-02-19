@@ -50,31 +50,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class=site-mobile-menu-body></div>
 </div>
 <header class="site-navbar py-4 js-sticky-header site-navbar-target" role=banner>
-<div class=container-fluid>
+<div class="container-fluid">
 <div class="d-flex align-items-center">
-<div class="site-logo mr-auto w-25"><a href=index.html>
-<div style=display:-moz-inline-block;padding:1%;background:rgba(255,255,255,0.5);width:30%;border-radius:5%>
-<IMG src=images/logo.png style=width:100%;height:auto;max-width:100%;display:block></div>
-</a></div>
-<div class="mx-auto text-center">
-<nav class="site-navigation position-relative text-right" role=navigation>
-<ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block m-0 p-0">
-<li><a href=#home-section class=nav-link>Home</a></li>
-<li><a href=#programs-section class=nav-link>Programs</a></li>
-<li><a href=#courses-section class=nav-link>Majors</a></li>
-<li><a href=#teachers-section class=nav-link>Admission</a></li>
-<li><a href=#fact class=nav-link>FAQs</a></li>
-</ul>
-</nav>
-</div>
-<div class="ml-auto w-25">
-<nav class="site-navigation position-relative text-right" role=navigation>
-<ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-<li><a href=https://kit-application-form.typeform.com/to/Kbb2ws target=_blank class=nav-link><span class="apply-home btn btn-pill">Apply Now</span></a></li>
-</ul>
-</nav>
-<a href=# class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
-</div>
+    <div class="site-logo mr-auto w-25">
+        <a href=index.html>
+            <div style=display:-moz-inline-block;padding:1%;background:rgba(255,255,255,0.5);width:40%;border-radius:5%>
+                <img src=images/logo.png style=width:100%;height:auto;max-width:100%;display:block>
+            </div>
+        </a>
+    </div>
+    <div class="mx-auto text-center">
+        <nav class="site-navigation position-relative text-right" role=navigation>
+        <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block m-0 p-0">
+            <li><a href=#home-section class=nav-link>Home</a></li>
+            <li><a href=#programs-section class=nav-link>Programs</a></li>
+            <li><a href=#courses-section class=nav-link>Majors</a></li>
+            <li><a href=#teachers-section class=nav-link>Admission</a></li>
+            <li><a href=#fact class=nav-link>FAQs</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="ml-auto w-25">
+        <nav class="site-navigation position-relative text-right" role=navigation>
+            <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+            <li><a href=https://kit-application-form.typeform.com/to/Kbb2ws target=_blank class=nav-link><span class="apply-home btn btn-pill">Apply Now</span></a></li>
+            </ul>
+        </nav>
+        <a href=# class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+    </div>
 </div>
 </div>
 </header>
@@ -547,5 +550,15 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src=js/jquery.fancybox.min.js></script>
 <script src=js/jquery.sticky.js></script>
 <script src=js/main.js></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.rawgit.com/mburakerman/prognroll/master/src/prognroll.js"></script>
+<script>
+    $(function() {
+      $("body").prognroll({
+        height: 8, //Progress bar height in pixels
+        color: "#7971ea", //Progress bar background color
+      });
+    });
+</script>
 </body>
 </html>
