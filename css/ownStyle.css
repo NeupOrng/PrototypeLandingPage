@@ -1,6 +1,16 @@
 ::-webkit-scrollbar{
   display: none;
 }
+#top-logo{
+  width: 110px;
+}
+#top-logo img{
+  max-width: 100px;
+}
+#teacher-section{
+  padding: 4em 0 0 0;
+}
+
 .fact {
   width: 100%;
   position: relative;
@@ -129,6 +139,31 @@
     border: 1px solid black;
 }
 
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 3rem;
+  content: "\f106";
+  color: #1f7de2;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
 
 .Attribute-table table tr{
   text-align: center;
@@ -150,13 +185,61 @@
   font-weight: 900;
 }
 
+.logo-contact-us{
+  width: 80%;
+  padding: 0 10%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.contact-us{
+  position: relative;
+  margin-left: 48%;
+  margin-bottom: 20px;
+}
+.contact-us-title{
+  margin-left: 10px;
+}
+.contact-us-items{
+  display: flex;
+  margin: 0;
+  height: 30px;
+}
+.contact-us-items img{
+  max-width: 20px;
+  margin-right: 10px;
+
+}
+.contact-us-items p{
+
+}
+.footer-logo{
+  margin-left: 20%;
+  background-color: rgba(255,255,255,0.8);
+  width: 210px;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+.footer-logo img{
+  max-width: 200px;
+}
 #moreinfo-container {
   display: flex;
   margin-bottom: 30px;
 }
+#bottom-footer{
+  padding-bottom: 3em;
+}
 .moreinfo-items {
   margin: 5px 10px;
 }
+.bottom-button{
+  margin-left: 10%;
+}
+
+/*=====================================media query============================================================================= */
+
+
 
 @media only screen and (max-width: 1800px) {
   .comparation-item {
@@ -166,8 +249,23 @@
   .comparation-item-container {
     margin-left: 1%;
   }
+
+}
+@media only screen and (max-width: 1600px) {
+  .logo-contact-us{
+    padding: 0 5%;
+  }
+  .contact-us{
+    margin-left: 63%;
+  }
 }
 @media only screen and (max-width: 1400px) {
+  .footer-logo{
+    margin-left: 3%;
+  }
+  .contact-us{
+    margin-left: 68%;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .textContent {
@@ -196,11 +294,18 @@
   #compare-kit {
     padding-left: 0;
   }
+  .contact-us{
+    margin-left: 48%;
+  }
+  .footer-logo{
+    margin-left: 5%;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .imageContent {
     margin-top: 10%;
   }
+
 
 }
 @media only screen and (max-width: 900px) {
@@ -230,54 +335,61 @@
   #imageContent2 {
     float: none;
   }
+
+  #top-logo{
+    width: 80px;
+  }
+  #top-logo img{
+    max-width: 70px;
+  }
+}
+@media only screen and (max-width: 750px){
+
+  .contact-us{
+    margin-left: 0;
+  }
+  .contact-us-title{
+    margin-left: 0;
+  }
+  .footer-logo{
+    display: none;
+  }
+  .bottom-button{
+    margin-left: 20px;
+  }
 }
 
-.accordion-section .panel-default > .panel-heading {
-  border: 0;
-  background: #f4f4f4;
-  padding: 0;
-}
-.accordion-section .panel-default .panel-title a {
-  display: block;
-  font-style: italic;
-  font-size: 1.5rem;
-}
-.accordion-section .panel-default .panel-title a:after {
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-size: 3rem;
-  content: "\f106";
-  color: #1f7de2;
-  float: right;
-  margin-top: -12px;
-}
-.accordion-section .panel-default .panel-title a.collapsed:after {
-  content: "\f107";
-}
-.accordion-section .panel-default .panel-body {
-  font-size: 1.2rem;
-=======
 @media only screen and (max-width: 600px) {
     .studentVoiceItem{
         height: 500px;
     }
+
 }
 @media only screen and (max-width: 550px) {
     .studentVoiceItem{
         height: 470px;
-    }
+      }
+
+
 }
 @media only screen and (max-width: 500px) {
     .studentVoiceItem{
         height: 500px;
     }
+
 }
 @media only screen and (max-width: 400px) {
     .studentVoiceItem{
         height: 600px;
     }
+
 }
 @media only screen and (max-width: 300px) {
     .studentVoiceItem{
         height: 700px;
     }
+
+  }
+@media only screen and (max-width: 200px){
+
+}
