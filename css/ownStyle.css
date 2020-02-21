@@ -71,15 +71,17 @@
 .studentVoiceItem {
   padding: 5px 20px;
   margin-bottom: 5px;
+  height: 200px;
 }
 .studentVoiceItem div {
   display: inline-block;
 }
 
 .imageContent {
-  margin-top: 3%;
+  margin-top: 1.5%;
   margin-left: 3%;
   text-align: center;
+  margin-bottom: 10px;
 }
 #imageContent1 {
   float: left;
@@ -91,6 +93,12 @@
 .imageContent p {
   color: black;
   font-weight: 900;
+  margin-bottom: 0;
+}
+.imageContent span{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
 }
 .textContent {
   margin-top: 3%;
@@ -286,7 +294,7 @@
     width: 75%;
   }
   .imageContent {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 2%;
   }
   .comparation-title {
@@ -316,13 +324,21 @@
   }
 }
 @media only screen and (max-width: 1000px) {
+  .studentVoiceItem{
+    height: 220px;
+  }
   .imageContent {
-    margin-top: 10%;
+    margin-top: 3%;
+  }
+@media only screen and (max-width: 950px) {
+  .studentVoiceItem{
+    height: 260px;
   }
 
-
 }
+
 @media only screen and (max-width: 900px) {
+}
   .Attribute-table{
     overflow-x: scroll;
   }
@@ -332,7 +348,7 @@
   }
   .studentVoiceItem {
     padding: 0 3% 3% 3%;
-    height: 460px;
+    height: 400px;
   }
   .textContent {
     width: 100%;
@@ -362,7 +378,9 @@
   }
 }
 @media only screen and (max-width: 750px){
-
+  .studentVoiceItem{
+    height: 460;
+  }
   .contact-us{
     margin-left: 8%;
   }
