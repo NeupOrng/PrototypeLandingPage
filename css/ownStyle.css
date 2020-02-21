@@ -1,6 +1,9 @@
 ::-webkit-scrollbar{
   display: none;
 }
+.tick{
+  max-width: 30px;
+}
 #top-logo{
   width: 110px;
 }
@@ -126,8 +129,8 @@
 }
 .comparation-item-container {
   margin-left: 7%;
+  margin-right: 7%;
   display: flex;
-  border: black 1px solid;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -140,11 +143,14 @@
 }
 .School-table table tr th{
     padding: 10px 15px;
-    border: 1px solid black;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
 }
 .School-table table tr td{
     padding: 10px 15px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .accordion-section .panel-default > .panel-heading {
@@ -179,11 +185,16 @@
 }
 .Attribute-table table tr th{
     padding: 10px 15px;
-    border: 1px solid black;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
 }
 .Attribute-table table tr td{
     padding: 10px 15px;
-    border: 1px solid black;
+
+    border-bottom: 1px solid black;
+
 }
 .comparation-item h3 {
   position: relative;
