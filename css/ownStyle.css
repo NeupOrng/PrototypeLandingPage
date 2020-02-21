@@ -187,13 +187,13 @@
 
 .logo-contact-us{
   width: 80%;
-  padding: 0 10%;
+  margin-left: 20%;
   display: flex;
   margin-bottom: 30px;
 }
 .contact-us{
   position: relative;
-  margin-left: 48%;
+  margin-left: 38%;
   margin-bottom: 20px;
 }
 .contact-us-title{
@@ -213,7 +213,7 @@
 
 }
 .footer-logo{
-  margin-left: 20%;
+  margin-left: 0;
   background-color: rgba(255,255,255,0.8);
   width: 210px;
   padding: 5px;
@@ -251,20 +251,34 @@
   }
 
 }
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1650px) {
   .logo-contact-us{
-    padding: 0 5%;
-  }
-  .contact-us{
-    margin-left: 63%;
+    margin-left: 17%;
   }
 }
-@media only screen and (max-width: 1400px) {
-  .footer-logo{
-    margin-left: 3%;
+@media only screen and (max-width: 1600px) {
+  .logo-contact-us{
+
   }
   .contact-us{
-    margin-left: 68%;
+    margin-left: 43%;
+  }
+}
+@media only screen and (max-width: 1550px){
+  .logo-contact-us{
+    margin-left: 8%;
+  }
+  .contact-us{
+    margin-left: 53%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+
+  .footer-logo{
+
+  }
+  .contact-us{
+
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -312,6 +326,7 @@
   .Attribute-table{
     overflow-x: scroll;
   }
+
   .studentVoiceItem div {
     display: block;
   }
@@ -342,11 +357,14 @@
   #top-logo img{
     max-width: 70px;
   }
+  .contact-us{
+    margin-left: 38%;
+  }
 }
 @media only screen and (max-width: 750px){
 
   .contact-us{
-    margin-left: 0;
+    margin-left: 8%;
   }
   .contact-us-title{
     margin-left: 0;
@@ -362,6 +380,9 @@
 @media only screen and (max-width: 600px) {
     .studentVoiceItem{
         height: 500px;
+    }
+    .contact-us{
+      margin-left: 1%;
     }
 
 }
