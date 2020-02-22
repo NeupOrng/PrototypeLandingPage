@@ -1,16 +1,16 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
-.tick{
+.tick {
   max-width: 30px;
 }
-#top-logo{
+#top-logo {
   width: 110px;
 }
-#top-logo img{
+#top-logo img {
   max-width: 100px;
 }
-#teacher-section{
+#teacher-section {
   padding: 4em 0 0 0;
 }
 
@@ -37,8 +37,7 @@
   font-weight: bold;
 }
 .fact-content blockquote {
-  color: aquam
-  arine;
+  color: aquam arine;
 }
 
 .more-info-list {
@@ -98,7 +97,7 @@
   font-weight: 900;
   margin-bottom: 0;
 }
-.imageContent span{
+.imageContent span {
   color: black;
   font-size: 14px;
   font-weight: bold;
@@ -134,23 +133,22 @@
   border-radius: 5px;
   overflow: hidden;
 }
-.School-table{
-
+.School-table {
 }
 
-.School-table table tr{
+.School-table table tr {
   text-align: center;
 }
-.School-table table tr th{
-    padding: 10px 15px;
-    color: black;
-    font-size: 22px;
-    font-weight: 700;
-    border-bottom: 1px solid black;
+.School-table table tr th {
+  padding: 10px 15px;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 1px solid black;
 }
-.School-table table tr td{
-    padding: 10px 15px;
-    border-bottom: 1px solid black;
+.School-table table tr td {
+  padding: 10px 15px;
+  border-bottom: 1px solid black;
 }
 
 .accordion-section .panel-default > .panel-heading {
@@ -179,22 +177,21 @@
   font-size: 1.2rem;
 }
 
-.Attribute-table table tr{
+.Attribute-table table tr {
   text-align: center;
   margin: 10px 15px;
 }
-.Attribute-table table tr th{
-    padding: 10px 15px;
-    color: black;
-    font-size: 22px;
-    font-weight: 700;
-    border-bottom: 1px solid black;
+.Attribute-table table tr th {
+  padding: 10px 15px;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 1px solid black;
 }
-.Attribute-table table tr td{
-    padding: 10px 15px;
+.Attribute-table table tr td {
+  padding: 10px 15px;
 
-    border-bottom: 1px solid black;
-
+  border-bottom: 1px solid black;
 }
 .comparation-item h3 {
   position: relative;
@@ -204,61 +201,56 @@
   font-weight: 900;
 }
 
-.logo-contact-us{
+.logo-contact-us {
   width: 80%;
   margin-left: 20%;
   display: flex;
   margin-bottom: 30px;
 }
-.contact-us{
+.contact-us {
   position: relative;
   margin-left: 38%;
   margin-bottom: 20px;
 }
-.contact-us-title{
+.contact-us-title {
   margin-left: 10px;
 }
-.contact-us-items{
+.contact-us-items {
   display: flex;
   margin: 0;
   height: 30px;
 }
-.contact-us-items img{
+.contact-us-items img {
   max-width: 20px;
   margin-right: 10px;
-
 }
-.contact-us-items p{
-
+.contact-us-items p {
 }
-.footer-logo{
+.footer-logo {
   margin-left: 0;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 210px;
   padding: 5px;
   border-radius: 5px;
-
 }
-.footer-logo img{
+.footer-logo img {
   max-width: 200px;
 }
 #moreinfo-container {
   display: flex;
   margin-bottom: 30px;
 }
-#bottom-footer{
+#bottom-footer {
   padding-bottom: 3em;
 }
 .moreinfo-items {
   margin: 5px 10px;
 }
-.bottom-button{
+.bottom-button {
   margin-left: 10%;
 }
 
 /*=====================================media query============================================================================= */
-
-
 
 @media only screen and (max-width: 1800px) {
   .comparation-item {
@@ -268,36 +260,31 @@
   .comparation-item-container {
     margin-left: 1%;
   }
-
 }
 @media only screen and (max-width: 1650px) {
-  .logo-contact-us{
+  .logo-contact-us {
     margin-left: 17%;
   }
 }
 @media only screen and (max-width: 1600px) {
-  .logo-contact-us{
-
+  .logo-contact-us {
   }
-  .contact-us{
+  .contact-us {
     margin-left: 43%;
   }
 }
-@media only screen and (max-width: 1550px){
-  .logo-contact-us{
+@media only screen and (max-width: 1550px) {
+  .logo-contact-us {
     margin-left: 8%;
   }
-  .contact-us{
+  .contact-us {
     margin-left: 53%;
   }
 }
 @media only screen and (max-width: 1500px) {
-
-  .footer-logo{
-
+  .footer-logo {
   }
-  .contact-us{
-
+  .contact-us {
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -327,30 +314,29 @@
   #compare-kit {
     padding-left: 0;
   }
-  .contact-us{
+  .contact-us {
     margin-left: 48%;
   }
-  .footer-logo{
+  .footer-logo {
     margin-left: 5%;
   }
 }
 @media only screen and (max-width: 1000px) {
-  .studentVoiceItem{
+  .studentVoiceItem {
     height: 220px;
   }
   .imageContent {
     margin-top: 3%;
   }
-@media only screen and (max-width: 950px) {
-  .studentVoiceItem{
-    height: 260px;
+  @media only screen and (max-width: 950px) {
+    .studentVoiceItem {
+      height: 260px;
+    }
   }
 
-}
-
-@media only screen and (max-width: 900px) {
-}
-  .Attribute-table{
+  @media only screen and (max-width: 900px) {
+  }
+  .Attribute-table {
     overflow-x: scroll;
   }
 
@@ -378,68 +364,61 @@
     float: none;
   }
 
-  #top-logo{
+  #top-logo {
     width: 80px;
   }
-  #top-logo img{
+  #top-logo img {
     max-width: 70px;
   }
-  .contact-us{
+  .contact-us {
     margin-left: 38%;
   }
 }
-@media only screen and (max-width: 750px){
-  .studentVoiceItem{
+@media only screen and (max-width: 750px) {
+  .studentVoiceItem {
     height: 460;
   }
-  .contact-us{
+  .contact-us {
     margin-left: 8%;
   }
-  .contact-us-title{
+  .contact-us-title {
     margin-left: 0;
   }
-  .footer-logo{
+  .footer-logo {
     display: none;
   }
-  .bottom-button{
+  .bottom-button {
     margin-left: 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-    .studentVoiceItem{
-        height: 500px;
-    }
-    .contact-us{
-      margin-left: 1%;
-    }
-
+  .studentVoiceItem {
+    height: 500px;
+  }
+  .contact-us {
+    margin-left: 1%;
+  }
 }
 @media only screen and (max-width: 550px) {
-    .studentVoiceItem{
-        height: 470px;
-      }
-
-
+  .studentVoiceItem {
+    height: 470px;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .studentVoiceItem{
-        height: 500px;
-    }
-
+  .studentVoiceItem {
+    height: 500px;
+  }
 }
 @media only screen and (max-width: 400px) {
-    .studentVoiceItem{
-        height: 600px;
-    }
-
+  .studentVoiceItem {
+    height: 600px;
+  }
 }
 @media only screen and (max-width: 300px) {
-    .studentVoiceItem{
-        height: 700px;
-    }
-
+  .studentVoiceItem {
+    height: 700px;
   }
-@media only screen and (max-width: 200px){
-
+}
+@media only screen and (max-width: 200px) {
 }
