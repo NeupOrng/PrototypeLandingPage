@@ -13,6 +13,12 @@
 #teacher-section {
   padding: 4em 0 0 0;
 }
+.KIT{
+  background-color: lightblue;
+}
+.KIT i{
+  color: #3AE020;
+}
 
 .fact {
   width: 100%;
@@ -115,8 +121,8 @@
 #Comparation {
   width: 100%;
   height: 500px;
-  padding-left: 4%;
-  padding-right: 5%;
+  padding-left: 35%;
+  padding-right: 35%;
   margin-right: 0;
   margin-left: 0;
 }
@@ -229,12 +235,15 @@
 .footer-logo {
   margin-left: 0;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 210px;
+  width: 214px;
   padding: 5px;
   border-radius: 5px;
 }
 .footer-logo img {
   max-width: 200px;
+  margin-top: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 #moreinfo-container {
   display: flex;
@@ -310,6 +319,8 @@
   }
   #Comparation {
     height: auto;
+    padding-left: 26%;
+    padding-right: 26%;
   }
   #compare-kit {
     padding-left: 0;
@@ -335,6 +346,9 @@
   }
 
   @media only screen and (max-width: 900px) {
+  #Comparation{
+    padding-left: 25%;
+    padding-right: 25%;
   }
   .Attribute-table {
     overflow-x: scroll;
@@ -389,6 +403,10 @@
   }
   .bottom-button {
     margin-left: 20px;
+  }
+  #Comparation{
+    padding-left: 17%;
+    padding-right: 17%;
   }
 }
 
