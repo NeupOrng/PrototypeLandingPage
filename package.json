@@ -1,0 +1,23 @@
+{
+  "name": "PrototypeLandingPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatanak10/PrototypeLandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vatanak10/PrototypeLandingPage/issues"
+  },
+  "homepage": "https://github.com/vatanak10/PrototypeLandingPage#readme",
+  "dependencies": {
+    "glyphicons-only-bootstrap": "^1.0.1"
+  }
+}
