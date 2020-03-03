@@ -47,6 +47,11 @@ h5,
 
 .text-black {
   color: #000 !important;
+  line-height: 1.6;
+}
+
+.text-red{
+  color:#B71638;
 }
 
 .bg-black {
@@ -903,11 +908,11 @@ h5,
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover {
-  color: #7971ea;
+  color: #B71638;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a.active:after {
-  background: #7971ea;
+  background: #B71638;
 }
 
 .sticky-wrapper .shrink {
@@ -1061,9 +1066,10 @@ h5,
 
 .section-title {
   font-size: 3rem;
-  color: #000;
+  color: #B71638;
   margin-bottom: 1.8rem;
   font-weight: 900;
+  text-align: center;
 }
 
 @media (max-width: 991.98px) {
@@ -1266,8 +1272,8 @@ h5,
 }
 
 .footer-section {
-  padding: 7em 0 0 0;
-  background-color: darkblue;
+  padding: 1.5em 0 0 0;
+  background-color: #B71638;
   color: white;
 }
 
@@ -1280,7 +1286,7 @@ h5,
   letter-spacing: .1rem;
   text-transform: uppercase;
   color: white;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   font-weight: 900;
 }
 
@@ -1426,7 +1432,7 @@ h5,
 }
 
 .custom-icon-wrap.custom-icon-light .custom-icon-inner {
-  background: #615dc2;
+  background: #B71638;
   width: 45px;
   height: 45px;
 }
@@ -1437,8 +1443,9 @@ h5,
 }
 
 .courses-title {
+  padding-top: 7rem;
   padding-bottom: 13rem;
-  background: #7971ea;
+  background: #B71638;
 }
 
 .courses-title .section-title {
@@ -1498,7 +1505,7 @@ h5,
 
 .course h3 {
   font-size: 1.15rem;
-  color: #000;
+  color: #B71638;
 }
 
 .course .stats {
