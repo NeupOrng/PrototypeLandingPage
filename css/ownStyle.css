@@ -264,7 +264,7 @@
 
 /* FAQs Design */
     #faqs a {
-      color: #282425!important;	
+      color: #282425!important;
       }
     #faqs ul.nav.nav-tabs > li{
       display: inline-block;
@@ -276,7 +276,7 @@
       display:block;
       padding:15px;
       color: #282425!important;
-      
+
     }
     #faqs ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
       background:	#FB282F;
@@ -289,13 +289,13 @@
       text-decoration: none!important;
     }
     #faqs .card-header {
-        background-color: rgb(245,245,245,0.3)!important;
+      background-color: rgb(245,245,245,0.3)!important;
       border-radius:0!important;
     }
     #faqs .card{
     border-radius:0!important;
     }
-    
+
     #faqs .card > .card-header a::before {
         font-family: fontawesome;
         content: "\f067 ";
@@ -330,17 +330,21 @@
 }
 @media only screen and (max-width: 1550px) {
   .logo-contact-us {
-    margin-left: 8%;
+    margin-left: 14%;
   }
   .contact-us {
-    margin-left: 53%;
+    margin-left: 45%;
   }
 }
-@media only screen and (max-width: 1500px) {
-  /* .footer-logo {
-  }
+@media only screen and (max-width: 1400px) {
   .contact-us {
-  } */
+    margin-left: 50%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .logo-contact-us {
+    margin-left: 8%;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .textContent {
@@ -382,6 +386,9 @@
   }
   .imageContent {
     margin-top: 3%;
+  }
+  .logo-contact-us {
+    margin-left: 0;
   }
   @media only screen and (max-width: 950px) {
     .studentVoiceItem {
