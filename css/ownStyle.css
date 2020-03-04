@@ -73,7 +73,7 @@
 
 .apply-now:hover {
   color: #fff;
-  border-color: #fff;
+  /* border-color: #fff; */
   background-color: #B71638;
 }
 
@@ -139,8 +139,8 @@
   overflow: hidden;
 }
 
-.School-table {
-}
+/* .School-table {
+} */
 
 .School-table table tr {
   text-align: center;
@@ -230,8 +230,8 @@
   max-width: 20px;
   margin-right: 10px;
 }
-.contact-us-items p {
-}
+/* .contact-us-items p {
+} */
 .footer-logo {
   margin-left: 0;
   background-color: rgba(255, 255, 255, 0.8);
@@ -262,6 +262,52 @@
   font-size: 20px;
 }
 
+/* FAQs Design */
+    #faqs a {
+      color: #282425!important;	
+      }
+    #faqs ul.nav.nav-tabs > li{
+      display: inline-block;
+      line-height: 50px;
+      height: 100%;
+      text-transform:uppercase;
+    }
+    #faqs ul.nav.nav-tabs > li a{
+      display:block;
+      padding:15px;
+      color: #282425!important;
+      
+    }
+    #faqs ul.nav.nav-tabs > li a:hover, ul.nav.nav-tabs > li:hover{
+      background:	#FB282F;
+      color:#fff!important;
+      text-decoration: none!important;
+    }
+    #faqs ul.nav.nav-tabs > li a.active{
+      background:	#B71638;
+      color:#fff!important;
+      text-decoration: none!important;
+    }
+    #faqs .card-header {
+        background-color: rgb(245,245,245,0.3)!important;
+      border-radius:0!important;
+    }
+    #faqs .card{
+    border-radius:0!important;
+    }
+    
+    #faqs .card > .card-header a::before {
+        font-family: fontawesome;
+        content: "\f067 ";
+        color: #282425;
+        float: right;
+        margin-right: 15px;
+        font-weight: 400;
+        position: absolute;
+        right: 0;
+    }
+/*FAQs Section  */
+
 /*=====================================media query============================================================================= */
 
 @media only screen and (max-width: 1800px) {
@@ -276,8 +322,8 @@
   }
 }
 @media only screen and (max-width: 1600px) {
-  .logo-contact-us {
-  }
+  /* .logo-contact-us {
+  } */
   .contact-us {
     margin-left: 43%;
   }
@@ -291,10 +337,10 @@
   }
 }
 @media only screen and (max-width: 1500px) {
-  .footer-logo {
+  /* .footer-logo {
   }
   .contact-us {
-  }
+  } */
 }
 @media only screen and (max-width: 1200px) {
   .textContent {
@@ -440,4 +486,5 @@
   }
 }
 @media only screen and (max-width: 200px) {
+}
 }
