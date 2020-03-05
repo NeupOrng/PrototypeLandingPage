@@ -3,7 +3,8 @@ let vm = new Vue({
   data:{
     facebook: 'images/icons/facebook_white.png',
     instagram: 'images/icons/instagram_white.png',
-    youtube:' images/icons/youtube_white.png'
+    youtube: 'images/icons/youtube_white.png',
+    quipper: 'images/icons/qp_logo_white.png'
 
   },
   methods:{
@@ -24,6 +25,12 @@ let vm = new Vue({
     },
     unhoverYoutube: function(){
       this.youtube='images/icons/youtube_white.png'
+    },
+    hoverQuipper: function(){
+      this.quipper='images/icons/qp_logo.png'
+    },
+    unhoverQuipper: function(){
+      this.quipper='images/icons/qp_logo_white.png'
     }
   }
 })
