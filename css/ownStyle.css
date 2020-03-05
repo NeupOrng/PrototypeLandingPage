@@ -80,7 +80,7 @@
 .studentVoiceItem {
   padding: 5px 20px;
   margin-bottom: 5px;
-  height: 200px;
+  height: 205px;
 }
 .studentVoiceItem div {
   display: inline-block;
@@ -91,9 +91,7 @@
   margin-left: 3%;
   text-align: center;
   margin-bottom: 10px;
-}
-#imageContent1 {
-  float: left;
+  line-height: 25px;
 }
 
 .imageContent img {
@@ -110,9 +108,9 @@
   font-weight: bold;
 }
 .textContent {
-  margin-top: 3%;
+  margin-top: 6%;
   position: relative;
-  width: 80%;
+  width: 70%;
   text-align: left;
 }
 #textContent1 {
@@ -204,6 +202,7 @@
   width: 100%;
   text-align: center;
   color: black;
+
   font-weight: 900;
 }
 
@@ -347,8 +346,11 @@
   }
 }
 @media only screen and (max-width: 1200px) {
+  .studentVoiceItem{
+    height: 220px;
+  }
   .textContent {
-    width: 75%;
+    width: 67%;
   }
   .imageContent {
     margin-top: 3%;
@@ -384,15 +386,20 @@
   .studentVoiceItem {
     height: 220px;
   }
+  .textContent{
+    margin-top: 3%;
+    width: 50%;
+  }
   .imageContent {
     margin-top: 3%;
   }
+  .
   .logo-contact-us {
     margin-left: 0;
   }
   @media only screen and (max-width: 950px) {
-    .studentVoiceItem {
-      height: 260px;
+    .textContent{
+      margin-top: 4%;
     }
   }
 
@@ -413,7 +420,7 @@
   }
   .studentVoiceItem {
     padding: 0 3% 3% 3%;
-    height: 400px;
+    height: 340px;
   }
   .textContent {
     width: 100%;
@@ -444,7 +451,7 @@
 }
 @media only screen and (max-width: 750px) {
   .studentVoiceItem {
-    height: 460;
+    height: 380px;
   }
   .contact-us {
     margin-left: 8%;
@@ -466,25 +473,21 @@
 
 @media only screen and (max-width: 600px) {
   .studentVoiceItem {
-    height: 500px;
+    height: 380px;
   }
   .contact-us {
     margin-left: 1%;
   }
 }
 @media only screen and (max-width: 550px) {
-  .studentVoiceItem {
-    height: 470px;
-  }
+
 }
 @media only screen and (max-width: 500px) {
-  .studentVoiceItem {
-    height: 500px;
-  }
+
 }
 @media only screen and (max-width: 400px) {
   .studentVoiceItem {
-    height: 600px;
+    height: 390px;
   }
 }
 @media only screen and (max-width: 300px) {
