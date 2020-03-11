@@ -260,6 +260,13 @@
 .big-icon{
   font-size: 20px;
 }
+#footer-canopy{
+  text-align: center;
+  margin-top: 5px;
+}
+#footer-canopy p{
+  font-size: 14 px;
+}
 
 /* FAQs Design */
     #faqs a {
@@ -382,6 +389,7 @@
     margin-left: 5%;
   }
 }
+
 @media only screen and (max-width: 1000px) {
   .studentVoiceItem {
     height: 220px;
@@ -440,7 +448,7 @@
   }
 
   #top-logo {
-    width: 80px;
+    width: 90px;
   }
   #top-logo img {
     max-width: 70px;
