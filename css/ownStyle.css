@@ -4,6 +4,10 @@
 .tick {
   max-width: 30px;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 #top-logo {
   width: 110px;
 }
@@ -14,10 +18,13 @@
   padding: 4em 0 0 0;
 }
 .KIT{
-  background-color: lightblue;
+  background-color: #009DE9;
+  color: #B71638;
+  font-size: 25px;
 }
 .KIT i{
-  color: #3AE020;
+
+
 }
 
 .fact {
@@ -206,12 +213,7 @@
   font-weight: 900;
 }
 
-.logo-contact-us {
-  width: 80%;
-  margin-left: 20%;
-  display: flex;
-  margin-bottom: 30px;
-}
+
 .contact-us {
   position: relative;
   margin-left: 38%;
@@ -226,48 +228,69 @@
   height: 30px;
 }
 .contact-us-items img {
-  max-width: 20px;
+  max-width: 20%;
   margin-right: 10px;
+}
+.big-icon{
+  font-size: 20px;
 }
 /* .contact-us-items p {
 } */
+.logo-contact-us {
+  width: 80%;
+  margin-left: 20%;
+
+  margin-bottom: 30px;
+}
 .footer-logo {
   margin-left: 0;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 214px;
+  width: 170px;
   padding: 5px;
   border-radius: 5px;
 }
 .footer-logo img {
-  max-width: 200px;
+  max-width: 99%;
   margin-top: 2px;
   margin-left: 2px;
   margin-right: 2px;
 }
+#moreinfo-section-container{
+  margin-left: 450px;
+  margin-bottom: 30px;
+  margin-right: 400px;;
+}
 #moreinfo-container {
   display: flex;
+  margin-bottom: 20px;
 }
-#bottom-footer {
-  padding-bottom: 1em;
+#bottom-logo {
+  padding-top: 2em;
+
 }
 .moreinfo-items {
   margin: 5px 10px;
 }
 .bottom-button {
   margin-left: 10%;
-}
 
-.big-icon{
-  font-size: 20px;
 }
 #footer-canopy{
-  text-align: center;
-  margin-top: 5px;
+  margin-left: 45px;
+
 }
 #footer-canopy p{
   font-size: 14 px;
 }
-
+footer{
+  padding-bottom: 20px;
+}
+#footer-items{
+  width: 100%;
+}
+#footer-items-top{
+  display: flex;
+}
 /* FAQs Design */
     #faqs a {
       color: #282425!important;
@@ -338,18 +361,16 @@
   .logo-contact-us {
     margin-left: 14%;
   }
-  .contact-us {
-    margin-left: 45%;
-  }
-}
-@media only screen and (max-width: 1400px) {
-  .contact-us {
-    margin-left: 50%;
+  #moreinfo-section-container{
+    margin-left: 350px;
   }
 }
 @media only screen and (max-width: 1400px) {
   .logo-contact-us {
     margin-left: 8%;
+  }
+  #moreinfo-section-container{
+    margin-left: 250px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -388,6 +409,10 @@
   .footer-logo {
     margin-left: 5%;
   }
+  #moreinfo-section-container{
+    margin-left: 150px;
+    margin-right: 250px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -408,6 +433,10 @@
   @media only screen and (max-width: 950px) {
     .textContent{
       margin-top: 4%;
+    }
+    #moreinfo-section-container{
+      margin-left: 50px;
+      margin-right: 150px;
     }
   }
 
@@ -468,7 +497,6 @@
     margin-left: 0;
   }
   .footer-logo {
-    display: none;
   }
   .bottom-button {
     margin-left: 20px;
@@ -476,6 +504,9 @@
   #Comparation{
     padding-left: 0%;
     padding-right: 0%;
+  }
+  #bottom-logo{
+    display: none;
   }
 }
 
