@@ -159,7 +159,7 @@
           <tr>
             <th></th>
               <th class="KIT">
-              KIT
+              <span style="color: #B71638;font-size: 30px;">KIT</span>
               </th>
               <th>
               Indonesia
@@ -439,7 +439,7 @@
                             <div class="textContent" id="textContent1">
                                 <!-- <div class="font-weight-bold">Cambodian - Software Engineering - 2019</div> -->
                                 <blockquote>I felt very happy after knowing that I can work in Japan.
-                                    I have the opportunity to challenge myself using all the skills and knowledge 
+                                    I have the opportunity to challenge myself using all the skills and knowledge
                                     I gained while studying. At KIT Cambodia, I have learned technical skills as well as communication skills.</blockquote>
                                     </blockquote>
                             </div>
@@ -672,56 +672,42 @@
     </div>
 
     <footer class="footer-section" id="footer-section">
-        <div class="logo-contact-us">
-        <div class="footer-logo">
-            <img src="images/logo.png" alt="">
-        </div>
-        <div class="contact-us">
-
-        </div>
-        </div>
-    <div class=container id="bottom-footer">
-    <div class=row>
-    <div class=col-md-7>
-    <h3>More information</h3>
-    <div id="moreinfo-container">
-    <div class="moreinfo-items" >
-        <transition name="fade"><a href=https://www.facebook.com/KITinstitute/ target="blank"><img @mouseover="hoverFacebook" @mouseleave="unhoverFacebook" :src="facebook" style="max-width: 40px; border-radius: 5px;  " alt="Facebook"></a></transition>
-    </div>
-    <div class="moreinfo-items">
-        <a href=https://www.instagram.com/kit_indonesian target="blank"><img @mouseover="hoverInstagram" @mouseleave="unhoverInstagram" :src="instagram" style="max-width: 40px; border-radius: 5px;" alt="Instagram"></a>
-    </div>
-    <div class="moreinfo-items">
-        <a href=https://campus.quipper.com/directory/kirirom-institute-of-technology-kit-cambodia target="blank"><img @mouseover="hoverQuipper" @mouseleave="unhoverQuipper" :src="quipper" style="max-width: 40px; border-radius: 5px;" alt="Quipper"></a>
-    </div>
-    <div class="moreinfo-items">
-        <a href=https://www.youtube.com/channel/UCYAvu6nrJsY9jwXGTMrUGmw target="blank"><img @mouseover="hoverYoutube" @mouseleave="unhoverYoutube" :src="youtube" style="max-width: 40px;" alt="Youtube"></span></a>
-    </div>
-    <div class="moreinfo-items" style="width: 74px; background: white; padding: 2px; border-radius: 2px;">
-        <a href=https://www.kirirom.info/><img src="images/logo.png" style="max-width: 70px;" alt="KIT website"></span></a>
-    </div>
-
-        </div>
-        </div>
-        <div class="bottom-button">
-        <h3></h3>
-        <a href=https://kit-application-form.typeform.com/to/mO5EV2 target=_blank class=nav-link><span class="apply-now btn btn-pill">Learn More</span></a>
-        <!--
-        <h3>Tell me more about KIT</h3>
-        <form id=email-form class=footer-subscribe>
-        <div class=d-flex>
-        <input type=email name=Email class="form-control rounded-0" id=email placeholder=Email>
-        <input id=submit-form type=submit class="btn apply-now btn-pill ml-1" value=SUBSCRIBE>
-        </div>
-        </form>
-        -->
-        </div>
-        </div>
-        <div id="footer-canopy">
-          <p>Powered by Canopy</p>
-        </div>
+      <div id="footer-items">
+        <div id="footer-items-top">
+          <div id="moreinfo-section-container">
+            <h3>More information</h3>
+            <div id="moreinfo-container">
+              <div class="moreinfo-items" >
+                  <transition name="fade"><a href=https://www.facebook.com/KITinstitute/ target="blank"><img @mouseover="hoverFacebook" @mouseleave="unhoverFacebook" :src="facebook" style="max-width: 40px; border-radius: 5px;  " alt="Facebook"></a></transition>
+              </div>
+              <div class="moreinfo-items">
+                  <a href=https://www.instagram.com/kit_indonesian target="blank"><img @mouseover="hoverInstagram" @mouseleave="unhoverInstagram" :src="instagram" style="max-width: 40px; border-radius: 5px;" alt="Instagram"></a>
+              </div>
+              <div class="moreinfo-items">
+                  <a href=https://campus.quipper.com/directory/kirirom-institute-of-technology-kit-cambodia target="blank"><img @mouseover="hoverQuipper" @mouseleave="unhoverQuipper" :src="quipper" style="max-width: 40px; border-radius: 5px;" alt="Quipper"></a>
+              </div>
+              <div class="moreinfo-items">
+                  <a href=https://www.youtube.com/channel/UCYAvu6nrJsY9jwXGTMrUGmw target="blank"><img @mouseover="hoverYoutube" @mouseleave="unhoverYoutube" :src="youtube" style="max-width: 40px;" alt="Youtube"></span></a>
+              </div>
+              <div class="moreinfo-items" style="width: 74px; background: white; padding: 2px; border-radius: 2px;">
+                  <a href=https://www.kirirom.info/><img src="images/logo.png" style="max-width: 70px;" alt="KIT website"></span></a>
+              </div>
+            </div>
+            <div class="bottom-button">
+                <a href=https://kit-application-form.typeform.com/to/mO5EV2 target=_blank class=nav-link><span class="apply-now btn btn-pill">Learn More</span></a>
+            </div>
+            <div id="footer-canopy">
+                <p>Powered by <span style="font-size: 20px;font-weight: 900">Canopy</span></p>
+            </div>
+          </div>
+          <div id="bottom-logo">
+              <div class="footer-logo">
+                <img src="images/logo.png" alt="">
+              </div>
+          </div>
         </div>
 
+      </div>
     </footer>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/7.6.2/firebase-app.js"></script>
